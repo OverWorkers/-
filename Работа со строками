@@ -11,8 +11,8 @@ namespace Работа_со_строками
             string name;
             string state;
             string surname;
-            string zodiac_sign;
-            string place_of_work;
+            string zodiacSign;
+            string placeOfWork;
             string university;
 
             Console.Write("Как вас зовут? - ");
@@ -31,17 +31,17 @@ namespace Работа_со_строками
             state = Console.ReadLine();
 
             Console.Write("Кто вы по знаку зодиака? - ");
-            zodiac_sign = Console.ReadLine();
+            zodiacSign = Console.ReadLine();
 
             Console.Write("В какой университет вы поступали? - ");
             university = Console.ReadLine();
 
             Console.Write("А какая у вас работа? - ");
-            place_of_work = Console.ReadLine();
+            placeOfWork = Console.ReadLine();
 
             Console.WriteLine($"Вас зовут {name} {surname}, вам {age} лет и ваш рост {height}, списибо и на том. " +
-                $"Живёте вы в {state} при том всём что вы {zodiac_sign}. " +
-                $"Работа у вас кнечно мде, быть {place_of_work} моё почтение, " +
+                $"Живёте вы в {state} при том всём что вы {zodiacSign}. " +
+                $"Работа у вас кнечно мде, быть {placeOfWork} моё почтение, " +
                 $"думаю что нужно было в другой вуз поступать а не в {university}");
         }
     }
