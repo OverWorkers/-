@@ -6,8 +6,8 @@ namespace Работа_со_строками
     {
         static void Main(string[] args)
         {
-            string age;
-            string height;
+            int age;
+            int height;
             string name;
             string state;
             string surname;
@@ -22,10 +22,10 @@ namespace Работа_со_строками
             surname = Console.ReadLine();
 
             Console.Write("Сколько вам лет? - ");
-            age = Console.ReadLine();
+            age = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("А какой рост? - ");
-            height = Console.ReadLine();
+            height = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("В какой стране вы живёте? - ");
             state = Console.ReadLine();
