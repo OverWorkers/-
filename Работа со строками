@@ -1,0 +1,48 @@
+using System;
+
+namespace Работа_со_строками
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string age;
+            string height;
+            string name;
+            string state;
+            string surname;
+            string zodiac_sign;
+            string place_of_work;
+            string university;
+
+            Console.Write("Как вас зовут? - ");
+            name = Console.ReadLine();
+
+            Console.Write("А какая фамилия? - ");
+            surname = Console.ReadLine();
+
+            Console.Write("Сколько вам лет? - ");
+            age = Console.ReadLine();
+
+            Console.Write("А какой рост? - ");
+            height = Console.ReadLine();
+
+            Console.Write("В какой стране вы живёте? - ");
+            state = Console.ReadLine();
+
+            Console.Write("Кто вы по знаку зодиака? - ");
+            zodiac_sign = Console.ReadLine();
+
+            Console.Write("В какой университет вы поступали? - ");
+            university = Console.ReadLine();
+
+            Console.Write("А какая у вас работа? - ");
+            place_of_work = Console.ReadLine();
+
+            Console.WriteLine($"Вас зовут {name} {surname}, вам {age} лет и ваш рост {height}, списибо и на том. " +
+                $"Живёте вы в {state} при том всём что вы {zodiac_sign}. " +
+                $"Работа у вас кнечно мде, быть {place_of_work} моё почтение, " +
+                $"думаю что нужно было в другой вуз поступать а не в {university}");
+        }
+    }
+}
